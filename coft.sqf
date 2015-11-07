@@ -25,7 +25,7 @@ copyToClipboard _textPos;
 systemChat "Copied";
 };
 loot = {
-//THANKYOU TO MACA134
+//THANKYOU TO Eichi, Darth Rogue and MACA134 maybe?
 _position = getPosATL player;
 _lootSpot = "Sign_Sphere25cm_F" createVehicle _position;
 _lootSpot setPosATL _position;
