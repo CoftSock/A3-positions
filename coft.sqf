@@ -45,7 +45,6 @@ copyToClipboard _dump;
 hint _dump;
 };
 data = {
-//THANKYOU TO MACA134
 _position = getPosATL player;
 _lootSpot = "Sign_Arrow_Large_Green_F" createVehicle _position;
 _lootSpot setPosATL _position;
