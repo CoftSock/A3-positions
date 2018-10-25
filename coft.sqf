@@ -46,7 +46,6 @@ systemChat "Copied";
 nearby= {
 _closesttown = (nearestLocations [player,["NameCityCapital","NameCity","NameVillage"],1500]) select 0;
 _nearby = text _closesttown;
-//_textPos = format ['%1', _myPos];
 hint _nearby;
 copyToClipboard _nearby;
 systemChat "Copied";
